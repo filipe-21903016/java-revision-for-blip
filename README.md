@@ -18,7 +18,7 @@
 - [x]  📊 **Atomic Counter Race** – Implement a counter with `AtomicInteger` and another with `synchronized`, then test both under heavy concurrency.
 - [x]  🏁 **Countdown Start** – Simulate a race where multiple threads wait for a start signal using `CountDownLatch`.
 - [x]  🚧 **Barrier Sync** – Use `CyclicBarrier` to coordinate threads performing multi-stage tasks that need to wait for each other.
-- [ ]  🚦 **Semaphore Parking Lot** – Model limited concurrent access to a resource (e.g., parking spaces) with a `Semaphore`.
+- [x]  🚦 **Semaphore Parking Lot** – Model limited concurrent access to a resource (e.g., parking spaces) with a `Semaphore`.
 
 **1.4 – Deadlocks, Livelocks, Starvation**
 
