@@ -1,0 +1,29 @@
+package concurrency.scheduling;
+
+public class RoundRobinScheduler {
+    // CircularQueue should implement a queue interface
+    private CircularQueue<RRTask> circularQueue;
+
+    public RoundRobinScheduler(CircularQueue<RRTask> circularQueue) {
+        this.circularQueue = circularQueue;
+    }
+
+    void start() {
+        while(true){
+            RRTask task = circularQueue.dequeue();
+
+            task.runSlice();
+
+            if(!task.isFinished()){
+                circularQueue.enqueue(task);
+                System.out.println("Requeuing task "+ task.getId());
+            }else{
+                System.out.println("Task " +  task.getId() + " is finished");
+            }
+        }
+    }
+
+    void submit(RRTask task){
+        circularQueue.enqueue(task);
+    }
+}
