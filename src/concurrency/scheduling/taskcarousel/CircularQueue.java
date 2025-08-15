@@ -1,4 +1,4 @@
-package concurrency.scheduling;
+package concurrency.scheduling.taskcarousel;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;

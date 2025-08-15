@@ -1,4 +1,4 @@
-package concurrency.scheduling;
+package concurrency.scheduling.taskcarousel;
 
 public class Task implements RRTask {
     private static int counter = 0;  // to give each task a unique ID
@@ -7,6 +7,7 @@ public class Task implements RRTask {
 
 
     public Task(int steps) {
+        assert steps >= 0;
         this.steps = steps;
         id = ++counter;
     }

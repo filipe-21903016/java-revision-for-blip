@@ -1,4 +1,4 @@
-package concurrency.scheduling;
+package concurrency.scheduling.taskcarousel;
 
 public interface RRTask {
     boolean isFinished();

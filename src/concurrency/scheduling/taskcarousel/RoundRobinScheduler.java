@@ -1,4 +1,4 @@
-package concurrency.scheduling;
+package concurrency.scheduling.taskcarousel;
 
 public class RoundRobinScheduler {
     // CircularQueue should implement a queue interface

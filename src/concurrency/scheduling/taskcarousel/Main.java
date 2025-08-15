@@ -1,4 +1,4 @@
-package concurrency.scheduling;
+package concurrency.scheduling.taskcarousel;
 
 public class Main {
     public static void main(String[] args) {
