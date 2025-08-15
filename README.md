@@ -36,23 +36,19 @@
 
 ### **Phase 2 – OOP Design Patterns in Java**
 
-**2.1 – SOLID Principles Refresher**
+**2.1 – Creational Patterns**
 
-- [ ]  🪓 **Class Splitter** – Take a large “God” class and refactor it into smaller, SOLID-compliant classes with clear responsibilities.
-
-**2.2 – Creational Patterns**
-
-- [ ]  🗝 **Singleton Vault** – Implement a thread-safe Singleton pattern with double-checked locking and lazy initialization.
+- [x]  🗝 **Singleton Vault** – Implement a thread-safe Singleton pattern with double-checked locking and lazy initialization.
 - [ ]  🏭 **Task Factory** – Create a Factory Method that returns different implementations of Runnable or Callable tasks.
 - [ ]  🛠 **Scheduler Builder** – Use the Builder pattern to configure and create customizable scheduler instances.
 
-**2.3 – Structural Patterns**
+**2.2 – Structural Patterns**
 
 - [ ]  🔌 **Task Adapter** – Design an Adapter to make legacy tasks compatible with a new scheduler interface.
 - [ ]  🎯 **Logging Decorator** – Use the Decorator pattern to add logging around task execution without modifying the tasks themselves.
 - [ ]  🚪 **Resource Proxy** – Implement a Proxy to control and serialize access to a shared resource, such as a file or database connection.
 
-**2.4 – Behavioral Patterns**
+**2.3 – Behavioral Patterns**
 
 - [ ]  📡 **Task Observer** – Use the Observer pattern to notify listeners about task lifecycle events (start, progress, complete).
 - [ ]  🎟 **Command Queue** – Encapsulate tasks as Command objects and execute them through a queue-based scheduler.
