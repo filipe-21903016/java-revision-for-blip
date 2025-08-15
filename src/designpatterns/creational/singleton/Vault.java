@@ -1,4 +1,4 @@
-package designpatterns.creational;
+package designpatterns.creational.singleton;
 
 //Singleton
 public class Vault {

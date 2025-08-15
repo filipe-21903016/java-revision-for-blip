@@ -1,6 +1,4 @@
-package designpatterns.creational.tests;
-
-import designpatterns.creational.Vault;
+package designpatterns.creational.singleton;
 
 public class VaultTest {
     public static void main(String[] args) {
