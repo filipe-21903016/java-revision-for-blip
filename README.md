@@ -30,7 +30,7 @@
 
 - [X]  🔁 **Task Carousel** – Implement a low-level Round Robin scheduler using a circular queue, `ReentrantLock`, and `Condition`.
 - [X]  📅 **Timed Spinner** – Build a scheduler using `ScheduledExecutorService` and a `ConcurrentLinkedQueue` that runs tasks in rotation.
-- [ ]  ⏯ **Rotating Player** – Extend your Round Robin scheduler to allow tasks to be added dynamically and support pause/resume functionality.
+- [x]  ⏯ **Rotating Player** – Extend your Round Robin scheduler to allow tasks to be added dynamically and support pause/resume functionality.
 
 ---
 
