@@ -2,14 +2,14 @@ package concurrency.scheduling;
 
 public class RoundRobinScheduler {
     // CircularQueue should implement a queue interface
-    private CircularQueue<RRTask> circularQueue;
+    private final CircularQueue<RRTask> circularQueue;
 
     public RoundRobinScheduler(CircularQueue<RRTask> circularQueue) {
         this.circularQueue = circularQueue;
     }
 
     void start() {
-        while(true){
+        while(!Thread.currentThread().isInterrupted()){
             RRTask task = circularQueue.dequeue();
 
             task.runSlice();

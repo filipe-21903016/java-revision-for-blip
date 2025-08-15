@@ -11,5 +11,15 @@ public class Main {
 
         Thread schedulerThread = new Thread(scheduler::start);
         schedulerThread.start();
+
+        // Run scheduler for 10s
+        try {
+            Thread.sleep(10_000);
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+        }
+
+        System.out.println("Interrupting scheduler thread...");
+        schedulerThread.interrupt();
     }
 }
