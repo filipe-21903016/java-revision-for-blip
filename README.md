@@ -22,9 +22,9 @@
 
 **1.4 – Deadlocks, Livelocks, Starvation**
 
-- [ ]  🪤 **Deadlock Trap** – Write code that causes two threads to deadlock by locking resources in opposite order.
-- [ ]  🛠 **Deadlock Fixer** – Fix the deadlock by enforcing consistent lock ordering or using `tryLock` with timeouts.
-- [ ]  🌀 **Livelock Dancers** – Simulate threads that keep yielding to each other without making progress, then fix the livelock.
+- [x]  🪤 **Deadlock Trap** – Write code that causes two threads to deadlock by locking resources in opposite order.
+- [x]  🛠 **Deadlock Fixer** – Fix the deadlock by enforcing consistent lock ordering or using `tryLock` with timeouts.
+- [x]  🌀 **Livelock Dancers** – Simulate threads that keep yielding to each other without making progress, then fix the livelock.
 
 **1.5 – Task Scheduling & Round Robin**
 
