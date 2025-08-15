@@ -44,7 +44,7 @@
 
 **2.2 – Structural Patterns**
 
-- [ ]  🔌 **Task Adapter** – Design an Adapter to make legacy tasks compatible with a new scheduler interface.
+- [x]  🔌 **Task Adapter** – Design an Adapter to make legacy tasks compatible with a new scheduler interface.
 - [ ]  🎯 **Logging Decorator** – Use the Decorator pattern to add logging around task execution without modifying the tasks themselves.
 - [ ]  🚪 **Resource Proxy** – Implement a Proxy to control and serialize access to a shared resource, such as a file or database connection.
 
