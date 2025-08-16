@@ -41,6 +41,7 @@
 - [x]  🗝 **Singleton Vault** – Implement a thread-safe Singleton pattern with double-checked locking and lazy initialization.
 - [x]  🏭 **Task Factory** – Create a Factory Method that returns different implementations of Runnable or Callable tasks.
 - [x]  🛠 **Scheduler Builder** – Use the Builder pattern to configure and create customizable scheduler instances.
+- [x] ⚡ **Task Prototype** – Clone preconfigured tasks instead of constructing them from scratch.
 
 **2.2 – Structural Patterns**
 
