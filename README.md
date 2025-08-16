@@ -51,7 +51,7 @@
 **2.3 – Behavioral Patterns**
 
 - [x]  📡 **Task Observer** – Use the Observer pattern to notify listeners about task lifecycle events (start, progress, complete).
-- [ ]  🎟 **Command Queue** – Encapsulate tasks as Command objects and execute them through a queue-based scheduler.
+- [x]  🎟 **Command Queue** – Encapsulate tasks as Command objects and execute them through a queue-based scheduler.
 - [ ]  🔄 **Strategy Switcher** – Implement the Strategy pattern to dynamically switch between Round Robin and Priority scheduling algorithms at runtime.
 
 ---
