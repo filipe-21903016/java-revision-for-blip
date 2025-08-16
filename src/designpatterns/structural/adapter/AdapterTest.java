@@ -1,6 +1,6 @@
 package designpatterns.structural.adapter;
 
-public class Main {
+public class AdapterTest {
     public static void main(String[] args) {
 
         Scheduler scheduler = new Scheduler();
